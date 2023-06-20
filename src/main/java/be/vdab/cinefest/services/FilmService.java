@@ -13,7 +13,7 @@ public class FilmService {
         this.filmRepo = filmRepo;
     }
 
-    public Long findTotaalVrijePlaaten(){
+    public long findTotaalVrijePlaaten(){
         return filmRepo.findTotaalVrijePlaatsen();
     }
 }
